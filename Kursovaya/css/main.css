@@ -1,0 +1,485 @@
+@font-face {
+    font-family: 'Actinia';
+    src: url(../fonts/Actinia/Actinia-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Inter-Light.otf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Inter-Regular.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter/Inter-Bold.otf);
+    font-weight: 600;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #F7F7F7;
+    font-family: 'Actinia';
+    font-weight: 400;
+    font-size: 4rem;
+}
+h2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+p {
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 1.125rem;
+}
+a {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 81.25rem;
+    margin: 0 auto;
+}
+.wrapper {
+    /* overflow: hidden; */
+}
+
+/* header start */
+header {
+    margin: 0 auto;
+    height: 6.25rem;
+}
+
+.bg-img {
+    background-image: url(../img/bg-main-screen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}
+.bg-img-about {
+    background-image: url(../img/about-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}
+.bg-img-catalog {
+    background-image: url(../img/catalog-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}
+.bg-img-contact {
+    background-image: url(../img/bg-contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+}
+.header-menu {
+    display: flex;
+    gap: 3.125rem;
+}
+
+.header-menu-item {
+    color: #F7F7F7;
+    border-bottom-width: 0 solid #F7F7F7;
+    transition: 0.2s;
+}
+
+.button-contact-with-us {
+    padding: 0.3125rem 2.5rem;
+    border: solid #F7F7F7;
+}
+.contact-button {
+    color: #F7F7F7;
+}
+/* header end */
+
+
+/* footer start */
+footer {
+
+}
+
+.footer-color {
+    display: flex;
+    flex-direction: column;
+    background-color: #060606;
+    height: 18.75rem;
+    justify-content: center;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.8125rem;
+}
+.footer-menu {
+    display: flex;
+    gap: 2.5rem;
+}
+.footer-menu-item {
+    color: #F7F7F7;
+}
+.footer-contacts {
+    display: flex;
+    gap: 3.125rem;
+}
+.footer-contacts-item {
+    color: #F7F7F7;
+}
+/* footer end */
+
+
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 50rem;
+}
+.preview-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    max-width: 41.25rem;
+}
+.title {
+    text-align: center;
+}
+.title-text {
+    text-align: center;
+    color: #F7F7F7;
+}
+
+
+
+.we-etude {
+    display: flex;
+    align-items: center;
+    height: 56.25rem;
+    justify-content: space-around;
+}
+.we-etude-items {
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+    
+}
+.we-etude-pic {
+    max-width: 41.25rem;
+}
+.we-etude-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 31.25rem;
+}
+
+
+.numbers {
+    display: flex;
+    align-items: center;
+    height: 37.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.numbers-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5.625rem;
+}
+.numbers-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6.25rem;
+}
+.numbers-title {
+    text-align: center;
+}
+.numbers-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.number-title {
+    font-size: 3rem;
+}
+.number-text {
+    font-weight: 400;
+}
+
+
+
+.our-projects {
+    background-color: #060606;
+}
+.projects-items {
+    color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    gap: 6.25rem;
+}
+.projects-text-container {
+    height: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.projects-title {
+}
+.projects-text {
+    max-width: 43.75rem;
+    text-align: center;
+}
+.projects-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+.project-img {
+}
+.projects-img-container-two {
+    display: flex;
+    gap: 0.625rem;
+}
+.project-img-two {
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    height: 9.375rem;
+}
+.button-catalog {
+    height: 3.125rem;
+    background-color: transparent;
+    color: #F7F7F7;
+    border: solid #F7F7F7;
+    width: 12.5rem;
+}
+
+
+
+.how-we-work {
+    height: 56.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+.how-we-work-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 9.375rem;
+}
+.work-container-all {
+    display: flex;
+    gap: 3.125rem;
+    justify-content: center;
+}
+.work-container-two {
+    display: flex;
+    flex-direction: column;
+    max-width: 28.125rem;
+    gap: 4.0625rem;
+}
+.work-container-one {
+    display: flex;
+    flex-direction: column;
+    max-width: 28.125rem;
+    gap: 5rem;
+}
+.work-title {
+    font-weight: 600;
+    text-align: right;
+}
+.work-text {
+    text-align: right;
+}
+.work-title-two {
+    text-align: left;
+    font-weight: 600;
+}
+.work-text-two {
+    text-align: left;
+}
+.vertical-line {
+    height: 37.5rem;
+    width: 0.0625rem;
+    background-color: #060606;
+}
+
+
+/* about-us start */
+.founder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 56.25rem;
+}
+.founder-items {
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+}
+.founder-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 31.25rem;
+}
+.founder-title {
+    font-weight: 200;
+    text-align: right;
+}
+.founder-name {
+    text-align: right;
+}
+.founder-story {
+    text-align: right;
+}
+.founder-pic {
+    text-align: right;
+}
+
+
+
+.philosophy {
+    display: flex;
+    align-items: center;
+    height: 46.875rem;
+    
+}
+.philosophy-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+.philosophy-columns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6.25rem;
+    background-color: #060606;
+    color: #F7F7F7;
+    align-items: center;
+    height: 31.25rem;
+}
+.philosophy-title {
+    color: #060606;
+    text-align: center;
+}
+.philosophy-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+}
+.philosophy-column-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.philosophy-text {
+}
+
+
+.employee {
+    height: 137.5rem;
+}
+.employee-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+    align-items: center;
+}
+.employee-title {
+    display: flex;
+    justify-content: center;
+}
+.employee-container-block {
+    display: flex;
+    align-items: center;
+    max-width: 56.25rem;
+    gap: 3.75rem;
+}
+
+.employee-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 21.875rem;
+}
+.employee-post {
+    font-weight: 200;
+}
+.employee-name {
+}
+.employee-text {
+}
+.line {
+    background-color: #060606;
+    height: 0.0625rem;
+    width: 62.5rem;
+}
+
+/* about-us end */
+
+
+/* contact start */
+.preview-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40rem;
+}
+.contacts {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    height: 6.25rem;
+}
+.contacts-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.contact-title {
+    font-family: 'Inter';
+    color: #F7F7F7;
+}
+.contact-text {
+    color: #F7F7F7;
+}
+/* contact end */
