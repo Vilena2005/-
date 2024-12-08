@@ -1,0 +1,88 @@
+.bg-img-catalog {
+    background-image: url(../img/catalog-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}
+.design-start-items {
+    display: flex;
+    flex-direction: column;
+    height: 87.5rem;
+    justify-content: center;
+}
+.design-start-img {
+    width: 100%;
+}
+.design-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.625rem;
+    grid-row-gap: 0.625rem;
+}
+.trend-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: #060606;
+    height: 56.25rem;
+    justify-content: center;
+}
+.trend-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.trend-text-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    justify-content: center;
+    height: 12.5rem;
+}
+.trend-title {
+    color: #F7F7F7;
+}
+.trend-text {
+    color: #F7F7F7;
+    width: 80%;
+    text-align: center;
+}
+.trend-item {
+    display: flex;
+    justify-content: center;
+    gap: 3.75rem;
+}
+.trend-img {
+    width: 100%;
+}
+.design-start-items-after-trend {
+    height: 2700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.design-container-after-trend {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.625rem;
+    grid-row-gap: 0.625rem;
+}
+
+
+@media (max-width: 600px) {
+    .design-start-items {
+        height: 500px;
+    }
+    .trend-bg {
+        height: 500px;
+    }
+    .trend-item {
+        gap: 20px;
+    }
+    .arrow {
+        width: 20px;
+    }
+    .design-start-items-after-trend {
+        height: 900px;
+    }
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etude</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about-us.css">
 </head>
 <body>
     <div class="wrapper">
@@ -12,15 +13,42 @@
             <header>
                 <div class="container">
                     <div class="header-items">
-                        <a href="#" class="logo">
+                        <a href="main_screen.html" class="logo">
                             <img src="img/Logo Etude white.svg" alt="Etude-logo">
                         </a>
                         <nav class="header-menu">
-                            <a href="#" class="header-menu-item">Главная</a>
-                            <a href="#" class="header-menu-item">Каталог</a>
-                            <a href="#" class="header-menu-item">Конструктор</a>
-                            <a href="#" class="header-menu-item">Контакты</a>
+                            <a href="main_screen.html" class="header-menu-item">Главная</a>
+                            <a href="catalog.html" class="header-menu-item">Каталог</a>
+                            <a href="construct.html" class="header-menu-item">Конструктор</a>
+                            <a href="contact.html" class="header-menu-item">Контакты</a>
                             <a href="#" class="header-menu-item">О нас</a>
+                        </nav>
+                        <div class="button-contact-with-us">
+                            <a href="#" class="contact-button">Связаться с нами</a>
+                        </div>
+                    </div>
+                    <div class="mobile-header">
+                        <a href="main_screen.html" class="logo">
+                            <img src="img/Logo Etude white.svg" alt="Etude-logo">
+                        </a>
+                        <div class="burger-menu">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-mobile">
+                    <div class="close-button">
+                        <img src="img/icons/icon-exit.svg" alt="exit">
+                    </div>
+                    <div class="nav-mobile-container">
+                        <nav class="nav-mobile-item">
+                            <a href="#" class="header-menu-item">Главная</a>
+                            <a href="catalog.html" class="header-menu-item">Каталог</a>
+                            <a href="construct.html" class="header-menu-item">Конструктор</a>
+                            <a href="contact.html" class="header-menu-item">Контакты</a>
+                            <a href="about-us.html" class="header-menu-item">О нас</a>
                         </nav>
                         <div class="button-contact-with-us">
                             <a href="#" class="contact-button">Связаться с нами</a>
@@ -67,39 +95,45 @@
                             <img src="img/founder.jpg" alt="founder-picture" class="founder-pic">
                         </div>
                     </section>
-                    <section class="philosophy">
-                        <div class="philosophy-container">
-                            <h2 class="philosophy-title">ФИЛОСОФИЯ НАШЕЙ КОМПАНИИ</h2>
-                            <div class="philosophy-columns">
-                                <div class="philosophy-column">
-                                    <img src="img/sofa-icon.svg" alt="icon-sofa">
-                                    <p class="philosophy-column-title">Гармония пространства</p>
-                                    <p class="philosophy-text">Мы верим, что интерьер должен находиться 
-                                        в балансе с окружающей средой. Используя натуральные материалы, 
-                                        плавные линии и продуманные цветовые решения, мы создаем 
-                                        пространства, способствующие физическому и эмоциональному 
-                                        благополучию.</p>
-                                </div>
-                                <div class="philosophy-column">
-                                    <img src="img/light-icon.svg" alt="icon-light">
-                                    <p class="philosophy-column-title">Функциональность и эстетика.</p>
-                                    <p class="philosophy-text"> Мы верим, что идеальный интерьер должен
-                                        быть не только визуально привлекательным, но и максимально 
-                                        функциональным. Наши дизайнерские решения сочетают в себе 
-                                        практичность и элегантность, создавая пространства, удобные 
-                                        для повседневной жизни.</p>
-                                </div>
-                                <div class="philosophy-column">
-                                    <img src="img/vase-icon.svg" alt="icon-vase">
-                                    <p class="philosophy-column-title">Вдохновение и творчество</p>
-                                    <p class="philosophy-text">Черпая вдохновение из красоты и естественных 
-                                        форм окружающего мира, мы разрабатываем интерьеры, которые позволяют 
-                                        почувствовать единение с природой. Органические материалы, природные 
-                                        оттенки и элементы наполняют ваш дом теплом и умиротворением.</p>
+                </div>
+                <div class="philosophy-bg">
+                    <div class="container">
+                        <section class="philosophy">
+                            <div class="philosophy-container">
+                                <h2 class="philosophy-title">ФИЛОСОФИЯ НАШЕЙ КОМПАНИИ</h2>
+                                <div class="philosophy-columns">
+                                    <div class="philosophy-column">
+                                        <img src="img/sofa-icon.svg" alt="icon-sofa">
+                                        <p class="philosophy-column-title">Гармония пространства</p>
+                                        <p class="philosophy-text">Мы верим, что интерьер должен находиться 
+                                            в балансе с окружающей средой. Используя натуральные материалы, 
+                                            плавные линии и продуманные цветовые решения, мы создаем 
+                                            пространства, способствующие физическому и эмоциональному 
+                                            благополучию.</p>
+                                    </div>
+                                    <div class="philosophy-column">
+                                        <img src="img/light-icon.svg" alt="icon-light">
+                                        <p class="philosophy-column-title">Функциональность и эстетика.</p>
+                                        <p class="philosophy-text"> Мы верим, что идеальный интерьер должен
+                                            быть не только визуально привлекательным, но и максимально 
+                                            функциональным. Наши дизайнерские решения сочетают в себе 
+                                            практичность и элегантность, создавая пространства, удобные 
+                                            для повседневной жизни.</p>
+                                    </div>
+                                    <div class="philosophy-column">
+                                        <img src="img/vase-icon.svg" alt="icon-vase">
+                                        <p class="philosophy-column-title">Вдохновение и творчество</p>
+                                        <p class="philosophy-text">Черпая вдохновение из красоты и естественных 
+                                            форм окружающего мира, мы разрабатываем интерьеры, которые позволяют 
+                                            почувствовать единение с природой. Органические материалы, природные 
+                                            оттенки и элементы наполняют ваш дом теплом и умиротворением.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
+                </div>
+                <div class="container">
                     <section class="employee">
                         <div class="employee-container">
                             <h2 class="employee-title">НАШИ СОТРУДНИКИ</h2>
@@ -141,20 +175,19 @@
                     </section>
                 </div>
             </main>
-        
         <footer>
             <div class="footer-color">
                 <div class="container">
                     <div class="footer-container">
-                        <a href="logo" class="">
+                        <a href="main_screen.html" class="logo">
                             <img src="img/Logo Etude white.svg" alt="Etude-logo">
                         </a>
                         <nav class="footer-menu">
-                            <a href="#" class="footer-menu-item">Главная</a>
-                            <a href="#" class="footer-menu-item">Каталог</a>
-                            <a href="#" class="footer-menu-item">Конструктор</a>
-                            <a href="#" class="footer-menu-item">Контакты</a>
-                            <a href="#" class="footer-menu-item">О нас</a>
+                            <a href="main_screen.html" class="footer-menu-item">Главная</a>
+                            <a href="catalog.html" class="footer-menu-item">Каталог</a>
+                            <a href="construct.html" class="footer-menu-item">Конструктор</a>
+                            <a href="contact.html" class="footer-menu-item">Контакты</a>
+                            <a href="about-us.html" class="footer-menu-item">О нас</a>
                         </nav>
                         <div class="footer-contacts">
                             <p class="footer-contacts-item">+ 7 901 578 12 98</p>

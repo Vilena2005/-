@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etude</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-screen.css">
 </head>
 <body>
     <div class="wrapper">
@@ -12,23 +13,51 @@
             <header>
                 <div class="container">
                     <div class="header-items">
-                        <a href="#" class="logo">
+                        <a href="main_screen.html" class="logo">
                             <img src="img/Logo Etude white.svg" alt="Etude-logo">
                         </a>
                         <nav class="header-menu">
                             <a href="#" class="header-menu-item">Главная</a>
-                            <a href="#" class="header-menu-item">Каталог</a>
+                            <a href="catalog.html" class="header-menu-item">Каталог</a>
                             <a href="#" class="header-menu-item">Конструктор</a>
-                            <a href="#" class="header-menu-item">Контакты</a>
-                            <a href="#" class="header-menu-item">О нас</a>
+                            <a href="contact.html" class="header-menu-item">Контакты</a>
+                            <a href="about-us.html" class="header-menu-item">О нас</a>
+                        </nav>
+                        <div class="button-contact-with-us">
+                            <a href="#" class="contact-button">Связаться с нами</a>
+                        </div>
+                    </div>
+                    <!-- адаптивка -->
+                <div class="mobile-header">
+                    <a href="main_screen.html" class="logo">
+                        <img src="img/Logo Etude white.svg" alt="Etude-logo">
+                    </a>
+                    <div class="burger-menu">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                </div>
+                <div class="nav-mobile">
+                    <div class="close-button">
+                        <img src="img/icons/icon-exit.svg" alt="exit">
+                    </div>
+                    <div class="nav-mobile-container">
+                        <nav class="nav-mobile-item">
+                            <a href="#" class="header-menu-item">Главная</a>
+                            <a href="catalog.html" class="header-menu-item">Каталог</a>
+                            <a href="construct.html" class="header-menu-item">Конструктор</a>
+                            <a href="contact.html" class="header-menu-item">Контакты</a>
+                            <a href="about-us.html" class="header-menu-item">О нас</a>
                         </nav>
                         <div class="button-contact-with-us">
                             <a href="#" class="contact-button">Связаться с нами</a>
                         </div>
                     </div>
                 </div>
-            </header>
 
+            </header>
             <main>
                 <div class="container">
                     <section class="preview">
@@ -59,6 +88,8 @@
                             </div>
                         </div>
                     </section>
+                </div>
+                <div class="container">
                     <section class="numbers">
                         <div class="numbers-container">
                             <h2 class="numbers-title">ПОЧЕМУ НУЖНО ВЫБРАТЬ ИМЕННО НАС</h2>
@@ -86,59 +117,70 @@
                             </div>
                         </div>
                     </section>
-                    <section class="our-projects">
-                        <div class="projects-items">
-                            <div class="projects-text-container">
-                                <h2 class="projects-title">НАШИ ПРОЕКТЫ</h2>
-                                <p class="projects-text">Мы реализовали более 80 коммерческих и 
-                                    частных проектов по всему миру, предоставляя нашим клиентам 
-                                    индивидуальные решения в стильном, функциональном и хорошо 
-                                    продуманном дизайне.</p>
-                            </div>
-                            <div class="projects-img-container">
-                                <img src="img/main_menu_hall.jpg" alt="first-img" class="project-img">
-                                <div class="projects-img-container-two">
-                                    <img src="img/main-menu-office.jpg" alt="second-img" class="project-img-two">
-                                    <img src="img/main-menu-restroom.jpg" alt="third-img" class="project-img-two">
+                </div>
+                <div class="projects-bg">
+                    <div class="container">
+                        <section class="our-projects">
+                            <div class="projects-items">
+                                <div class="projects-text-container">
+                                    <h2 class="projects-title">НАШИ ПРОЕКТЫ</h2>
+                                    <p class="projects-text">Мы реализовали более 80 коммерческих и 
+                                        частных проектов по всему миру, предоставляя нашим клиентам 
+                                        индивидуальные решения в стильном, функциональном и хорошо 
+                                        продуманном дизайне.</p>
                                 </div>
-                                <img src="img/main_menu_kitchen.jpg" alt="fourth-img" class="project-img">
+                                <div class="projects-img-container">
+                                    <img src="img/main_menu_hall.jpg" alt="first-img" class="project-img">
+                                    <div class="projects-img-container-two">
+                                        <img src="img/main-menu-office.jpg" alt="second-img" class="project-img-two">
+                                        <img src="img/main-menu-restroom.jpg" alt="third-img" class="project-img-two">
+                                    </div>
+                                    <img src="img/main_menu_kitchen.jpg" alt="fourth-img" class="project-img">
+                                </div>
+                                <div class="button-container">
+                                    <button class="button-catalog">В КАТАЛОГ</button>
+                                </div>
                             </div>
-                            <div class="button-container">
-                                <button class="button-catalog">В КАТАЛОГ</button>
-                            </div>
-                        </div>
-                    </section>
+                        </section>
+                    </div>
+                </div>
+                <div class="container">
                     <section class="how-we-work">
                         <h2 class="how-we-work-title">КАК МЫ РАБОТАЕМ?</h2>
                         <div class="work-container-all">
-                            <div class="work-container-one">
-                                <p class="work-title">Дизайн</p>
-                                <p class="work-text">Мы произведем замер площади на которой 
-                                    планируется ремонт</p>
-
-                                <p class="work-title">Разработка</p>
-                                <p class="work-text">Подготовка необходимых документов и 
-                                    подписание договора</p>
-
-                                <p class="work-title">Реализация проекта</p>
-                                <p class="work-text">Ваш дизайн мечты в реальности!</p>
-                            </div>
-                            <div class="vertical-line"></div>
-                            <div class="work-container-two">
-                                <p class="work-text-two">Создайте свой дизайн в конструкторе 
-                                    или свяжитесь с нами и мы подберем для вас профессиональное 
-                                    решение</p>
-                                <p class="work-title-two">Замер</p>
-
-                                <p class="work-text-two">Мы создадим фотореалистичные картинки 
-                                    вашего будущего дизайна интерьера с нескольких ракурсов на 
-                                    основании выбранной концепции</p>
-                                <p class="work-title-two">Документация</p>
-
-                                <p class="work-text-two">Строительная бригада осуществляет 
-                                    ремонт согласно предоставленным чертежам. Наши сотрудникик 
-                                    внимательно следят за выполнением</p>
-                                <p class="work-title-two">Результат</p>
+                            <div class="work-container">
+                                <div class="work-container-title-text">
+                                    <p class="work-title">Дизайн</p>
+                                    <p class="work-text-two">Создайте свой дизайн в конструкторе 
+                                        или свяжитесь с нами и мы подберем для вас профессиональное 
+                                        решение</p>
+                                </div>
+                                <div class="work-container-title-text">
+                                    <p class="work-title">Замер</p>
+                                    <p class="work-text-two">Мы произведем замер площади на которой 
+                                        планируется ремонт</p>
+                                </div>
+                                <div class="work-container-title-text">
+                                    <p class="work-title">Разработка</p>
+                                    <p class="work-text-two">Мы создадим фотореалистичные картинки 
+                                        вашего будущего дизайна интерьера с нескольких ракурсов на 
+                                        основании выбранной концепции</p>
+                                </div>
+                                <div class="work-container-title-text">
+                                    <p class="work-title">Документация</p>
+                                    <p class="work-text-two">Подготовка необходимых документов и 
+                                        подписание договора</p>
+                                </div>
+                                <div class="work-container-title-text">
+                                    <p class="work-title">Реализация проекта</p>
+                                    <p class="work-text-two">Строительная бригада осуществляет 
+                                        ремонт согласно предоставленным чертежам. Наши сотрудникик 
+                                        внимательно следят за выполнением</p>
+                                </div>
+                                <div class="work-container-title-text">                                    
+                                    <p class="work-title">Результат</p>
+                                    <p class="work-text-two">Ваш дизайн мечты в реальности!</p>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -148,15 +190,15 @@
             <div class="footer-color">
                 <div class="container">
                     <div class="footer-container">
-                        <a href="logo" class="">
+                        <a href="#" class="logo">
                             <img src="img/Logo Etude white.svg" alt="Etude-logo">
                         </a>
                         <nav class="footer-menu">
                             <a href="#" class="footer-menu-item">Главная</a>
-                            <a href="#" class="footer-menu-item">Каталог</a>
-                            <a href="#" class="footer-menu-item">Конструктор</a>
-                            <a href="#" class="footer-menu-item">Контакты</a>
-                            <a href="#" class="footer-menu-item">О нас</a>
+                            <a href="catalog.html" class="footer-menu-item">Каталог</a>
+                            <a href="construct.html" class="footer-menu-item">Конструктор</a>
+                            <a href="contact.html" class="footer-menu-item">Контакты</a>
+                            <a href="about-us.html" class="footer-menu-item">О нас</a>
                         </nav>
                         <div class="footer-contacts">
                             <p class="footer-contacts-item">+ 7 901 578 12 98</p>

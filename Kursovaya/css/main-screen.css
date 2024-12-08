@@ -1,0 +1,231 @@
+.bg-img {
+    background-image: url(../img/bg-main-screen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}
+.we-etude {
+    display: flex;
+    align-items: center;
+    height: 56.25rem;
+    justify-content: space-around;
+}
+.we-etude-items {
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+}
+.we-etude-pic {
+    max-width: 41.25rem;
+}
+.we-etude-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 31.25rem;
+}
+
+
+.numbers {
+    display: flex;
+    align-items: center;
+    height: 37.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.numbers-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5.625rem;
+}
+.numbers-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6.25rem;
+}
+.numbers-title {
+    text-align: center;
+}
+.numbers-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.number-title {
+    font-size: 3rem;
+}
+.number-text {
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.projects-bg {
+    background-color: #060606;
+}
+.projects-items {
+    color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    gap: 6.25rem;
+}
+.projects-text-container {
+    height: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+.projects-text {
+    max-width: 43.75rem;
+    text-align: center;
+}
+.projects-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+.projects-img-container-two {
+    display: flex;
+    gap: 0.625rem;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    height: 9.375rem;
+}
+.button-catalog {
+    height: 3.125rem;
+    background-color: transparent;
+    color: #F7F7F7;
+    border: solid #F7F7F7;
+    width: 12.5rem;
+}
+
+
+
+.how-we-work {
+    height: 56.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+.how-we-work-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 9.375rem;
+}
+.work-container-all {
+    display: flex;
+    gap: 3.125rem;
+    justify-content: center;
+}
+.work-container {
+    display: flex;
+    gap: 3.125rem;
+    justify-content: center;
+    flex-direction: column;
+}
+.work-container-title-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.work-title {
+    font-weight: 600;
+    width: 20%;
+    text-align: right;
+}
+.work-title-two {
+    font-weight: 600;
+}
+.work-text-two {
+    width: 40%;
+}
+.work-text {
+    max-width: 480px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .numbers {
+        height: 800px;
+    }
+    .numbers-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3.125rem;
+    }
+    .numbers-container {
+        gap: 30px;
+    }
+    .we-etude {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 900px;
+    }
+    .we-etude-pic {
+        width: 360px;
+    }
+    .we-etude-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+
+    .our-projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 1100px;
+    }
+    .projects-img-container-two {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .projects-img-container-two {
+        display: flex;
+        gap: 0.3125rem;
+    }
+    .project-img-two {
+        max-width: 100%;
+        max-height: 200px;
+    }
+    .projects-items  {
+        gap: 60px;
+    }
+    .projects-text-container {
+        gap: 20px;
+    }
+    .projects-text {
+        max-width: 400px;
+    }
+    .button-container {
+        height: 100px;
+    }
+
+    .work-title {
+        width: 30%;
+        text-align: right;
+    }
+    .work-text-two {
+        width: 49%;
+    }
+    .how-we-work {
+        height: 1200px;
+        gap: 0.625rem;
+    }
+}

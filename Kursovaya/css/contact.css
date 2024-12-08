@@ -1,0 +1,46 @@
+.bg-img-contact {
+    background-image: url(../img/bg-contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}
+.preview-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 40rem;
+}
+.contacts {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    height: 6.25rem;
+}
+.contacts-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.contact-title {
+    font-family: 'Inter';
+    color: #F7F7F7;
+}
+.contact-text {
+    color: #F7F7F7;
+}
+
+
+
+@media (max-width: 550px) {
+    .contacts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 300px;
+        gap: 30px;
+    }
+    .preview-contact{
+        height: 500px;
+    }
+
+}

@@ -1,0 +1,6 @@
+.bg-img-construct {
+    background-image: url(../img/constructor-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}

@@ -1,0 +1,173 @@
+.bg-img-about {
+    background-image: url(../img/about-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 56.25rem;
+}
+.founder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 56.25rem;
+}
+.founder-items {
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+}
+.founder-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 31.25rem;
+}
+.founder-title {
+    font-weight: 200;
+    text-align: right;
+}
+.founder-name {
+    text-align: right;
+}
+.founder-story {
+    text-align: right;
+}
+.founder-pic {
+    text-align: right;
+}
+
+
+.philosophy-bg {
+    background-color: #060606;
+}
+.philosophy {
+    display: flex;
+    align-items: center;
+    height: 46.875rem;
+}
+.philosophy-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+.philosophy-columns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6.25rem;
+    background-color: #060606;
+    color: #F7F7F7;
+    align-items: center;
+    height: 31.25rem;
+}
+.philosophy-title {
+    color: #F7F7F7;
+    text-align: center;
+}
+.philosophy-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.25rem;
+}
+.philosophy-column-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+
+
+.employee {
+    height: 137.5rem;
+}
+.employee-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+    align-items: center;
+}
+.employee-title {
+    display: flex;
+    justify-content: center;
+    height: 6.25rem;
+    align-items: center;
+}
+.employee-container-block {
+    display: flex;
+    align-items: center;
+    max-width: 56.25rem;
+    gap: 3.75rem;
+}
+.employee-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 21.875rem;
+}
+.employee-post {
+    font-weight: 200;
+}
+.line {
+    background-color: #060606;
+    height: 0.0625rem;
+    width: 62.5rem;
+}
+
+
+
+@media (max-width: 600px) {
+    .founder {
+        height: 75rem;
+    }
+    .founder-items {
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+    .founder-pic {
+        width: 100%;
+    }
+    .founder-title {
+        text-align: center;
+    }
+    .founder-name {
+        text-align: center;
+    }
+    .founder-story {
+        text-align: center;
+    }
+    .founder-pic {
+        text-align: center;
+    }
+
+
+    .philosophy {
+        flex-direction: column;
+        align-items: center;
+        height: 75rem;
+    }
+    .philosophy-columns{
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+        align-items: center;
+        height: 50rem;
+    }
+    
+
+    .employee-container-block {
+        flex-direction: column;
+    }
+    .employee {
+        height: 168.75rem;
+    }
+    .employee-container {
+        gap: 1.25rem;
+    }
+    .employee-text-block {
+        gap: 0.625rem;
+    }
+
+    .line {
+        width: 25rem;
+    }
+}

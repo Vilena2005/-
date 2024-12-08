@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etude</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/catalog.css">
 </head>
 <body>
     <div class="wrapper">
@@ -12,21 +13,49 @@
             <header>
                 <div class="container">
                     <div class="header-items">
-                        <a href="#" class="logo">
+                        <a href="main_screen.html" class="logo">
                             <img src="img/Logo Etude white.svg" alt="Etude-logo">
                         </a>
                         <nav class="header-menu">
-                            <a href="#" class="header-menu-item">Главная</a>
-                            <a href="#" class="header-menu-item">Каталог</a>
+                            <a href="main_screen.html" class="header-menu-item">Главная</a>
+                            <a href="catalog.html" class="header-menu-item">Каталог</a>
                             <a href="#" class="header-menu-item">Конструктор</a>
                             <a href="#" class="header-menu-item">Контакты</a>
-                            <a href="#" class="header-menu-item">О нас</a>
+                            <a href="about-us.html" class="header-menu-item">О нас</a>
                         </nav>
                         <div class="button-contact-with-us">
                             <a href="#" class="contact-button">Связаться с нами</a>
                         </div>
                     </div>
+                    <!-- адаптивка -->
+                    <div class="mobile-header">
+                        <a href="main_screen.html" class="logo">
+                            <img src="img/Logo Etude white.svg" alt="Etude-logo">
+                        </a>
+                        <div class="burger-menu">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
                 </div>
+                    <div class="nav-mobile">
+                        <div class="close-button">
+                            <img src="img/icons/icon-exit.svg" alt="exit">
+                        </div>
+                        <div class="nav-mobile-container">
+                            <nav class="nav-mobile-item">
+                                <a href="#" class="header-menu-item">Главная</a>
+                                <a href="catalog.html" class="header-menu-item">Каталог</a>
+                                <a href="construct.html" class="header-menu-item">Конструктор</a>
+                                <a href="contact.html" class="header-menu-item">Контакты</a>
+                                <a href="about-us.html" class="header-menu-item">О нас</a>
+                            </nav>
+                            <div class="button-contact-with-us">
+                                <a href="#" class="contact-button">Связаться с нами</a>
+                            </div>
+                        </div>
+                    </div>
             </header>
 
             <main>
@@ -43,19 +72,73 @@
                         </div>
                     </section>
                 </div>
-                <div class="container">
-                    <section class="design-start">
+                <section class="catalog-items">
+                    <div class="container">
                         <div class="design-start-items">
-                            <img src="img/projects/image 31.png" alt="img1" class="design-start-img">
-                            <img src="" alt="" class="design-start-img">
-                            <img src="" alt="" class="design-start-img">
-                            <img src="" alt="" class="design-start-img">
+                            <div class="design-container">
+                                <img src="img/projects/image 31.png" alt="img1" class="design-start-img">
+                                <img src="img/projects/image (6).jpg" alt="img2" class="design-start-img">
+                                <img src="img/projects/image (1).jpg" alt="img3" class="design-start-img">
+                                <img src="img/projects/image 22.jpg" alt="img4" class="design-start-img">
+                            </div>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                    <div class="trend-bg">
+                        <div class="container">
+                            <div class="trend-container">
+                                <div class="trend-text-items">
+                                    <h2 class="trend-title">ТРЕНДЫ ЭТОГО ГОДА</h2>
+                                    <p class="trend-text">Тихая роскошь — это тенденция дизайна 
+                                        интерьера, подчеркивающая сдержанную элегантность, 
+                                        неподвластную времени привлекательность и высококачественные 
+                                        материалы.</p>
+                                </div>
+                                <div class="trend-item">
+                                    <img src="img/arrow left.svg" alt="arrow" class="arrow">
+                                    <img src="img/projects/trend-of-year-img.jpg" alt="trend" class="trend-img">
+                                    <img src="img/arrow right.svg" alt="arrow" class="arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="design-start-items-after-trend">
+                            <div class="design-container-after-trend">
+                                <img src="img/projects/image (5).jpg" alt="img5" class="design-start-img">
+                                <img src="img/projects/image (7).jpg" alt="img6" class="design-start-img">
+                                <img src="img/projects/image (2).jpg" alt="img7" class="design-start-img">
+                                <img src="img/projects/image (8).jpg" alt="img8" class="design-start-img">
+                                <img src="img/projects/image (4).jpg" alt="img9" class="design-start-img">
+                                <img src="img/projects/image 30.jpg" alt="img10" class="design-start-img">
+                                <img src="img/projects/image (3).jpg" alt="img11" class="design-start-img">
+                                <img src="img/projects/image.jpg" alt="img12" class="design-start-img">
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
-        
-        <footer></footer>
+            <footer>
+                <div class="footer-color">
+                    <div class="container">
+                        <div class="footer-container">
+                            <a href="main_screen.html" class="logo">
+                                <img src="img/Logo Etude white.svg" alt="Etude-logo">
+                            </a>
+                            <nav class="footer-menu">
+                                <a href="main_screen.html" class="footer-menu-item">Главная</a>
+                                <a href="#" class="footer-menu-item">Каталог</a>
+                                <a href="construct.html" class="footer-menu-item">Конструктор</a>
+                                <a href="contact.html" class="footer-menu-item">Контакты</a>
+                                <a href="about-us.html" class="footer-menu-item">О нас</a>
+                            </nav>
+                            <div class="footer-contacts">
+                                <p class="footer-contacts-item">+ 7 901 578 12 98</p>
+                                <p class="footer-contacts-item">office@etude.design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
 </body>
