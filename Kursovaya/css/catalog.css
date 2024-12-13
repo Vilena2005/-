@@ -67,8 +67,6 @@
     grid-column-gap: 0.625rem;
     grid-row-gap: 0.625rem;
 }
-
-
 @media (max-width: 600px) {
     .design-start-items {
         height: 500px;

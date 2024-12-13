@@ -11,8 +11,6 @@
     position: relative;
     height: 40rem;
 }
-
-
 .project-info {
     display: flex;
     flex-direction: column;
@@ -39,9 +37,6 @@
 .project-info-text {
     color: #F7F7F7;
 }
-
-
-
 .project-info-img-section {
     display: flex;
     flex-direction: column;
@@ -62,8 +57,6 @@
 .project-info-img-two {
     width: 49%;
 }
-
-
 
 @media (max-width: 600px) {
     .preview-project {

@@ -29,9 +29,6 @@
 .contact-text {
     color: #F7F7F7;
 }
-
-
-
 @media (max-width: 550px) {
     .contacts {
         display: grid;

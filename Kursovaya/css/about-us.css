@@ -35,7 +35,6 @@
     text-align: right;
 }
 
-
 .philosophy-bg {
     background-color: #060606;
 }
@@ -73,10 +72,6 @@
     font-weight: 600;
     font-size: 1.5rem;
 }
-
-
-
-
 .employee {
     height: 137.5rem;
 }
@@ -112,9 +107,6 @@
     height: 0.0625rem;
     width: 62.5rem;
 }
-
-
-
 @media (max-width: 600px) {
     .founder {
         height: 75rem;
@@ -138,8 +130,6 @@
     .founder-pic {
         text-align: center;
     }
-
-
     .philosophy {
         flex-direction: column;
         align-items: center;
@@ -152,8 +142,6 @@
         align-items: center;
         height: 50rem;
     }
-    
-
     .employee-container-block {
         flex-direction: column;
     }

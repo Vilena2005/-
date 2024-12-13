@@ -24,8 +24,6 @@
     gap: 1.25rem;
     max-width: 31.25rem;
 }
-
-
 .numbers {
     display: flex;
     align-items: center;
@@ -60,8 +58,6 @@
     font-weight: 400;
     text-align: center;
 }
-
-
 .projects-bg {
     background-color: #060606;
 }
@@ -91,6 +87,10 @@
 .projects-img-container-two {
     display: flex;
     gap: 0.625rem;
+    width: 100%;
+}
+.project-img-two {
+    width: 49%;
 }
 .button-container {
     display: flex;
@@ -98,15 +98,21 @@
     height: 9.375rem;
 }
 .button-catalog {
-    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     color: #F7F7F7;
-    border: solid #F7F7F7;
-    width: 12.5rem;
+    border: solid 0.0625rem #F7F7F7;
+    height: 2.8125rem;
+    width: 15rem;
+    cursor: pointer;
 }
-
-
-
+.button-catalog:hover {
+    background-color: #F7F7F7;
+    color: #060606;
+    transition: 0.5s;
+}
 .how-we-work {
     height: 56.25rem;
     display: flex;
@@ -152,10 +158,6 @@
     max-width: 480px;
 }
 
-
-
-
-
 @media (max-width: 600px) {
     .numbers {
         height: 800px;
@@ -183,8 +185,6 @@
         align-items: center;
         gap: 40px;
     }
-
-
     .our-projects {
         display: flex;
         flex-direction: column;
@@ -216,7 +216,6 @@
     .button-container {
         height: 100px;
     }
-
     .work-title {
         width: 30%;
         text-align: right;
